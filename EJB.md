@@ -39,3 +39,30 @@ public class ExampleEJB implements LocalEJB{
 http://localhost:8080/myapp/ejb
 ```
 ![](https://i.imgur.com/GZdvcUO.png)
+
+## Инъекция EJB
+
+Также мы можем добавить EJB в наши другие контроллеры через CDI (`@Inject`)
+```java
+    @Inject
+    private ExampleEJB ejb;
+```
+
+Создадим ресурс с инъекцией:
+```java
+@Path("cdi")
+public class ResourceWithCDI {
+    
+    @Inject
+    private ExampleEJB ejb;
+    
+    @GET
+    @Produces(MediaType.TEXT_HTML)
+    public String get(){
+        return ejb.getImage();
+    }
+}
+```
+
+Результат будет тем же
+
