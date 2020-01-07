@@ -1,5 +1,7 @@
 # Дружимся с EJB
 
+[Enterprise Java Beans (коротко)](https://github.com/AppLoidx/Web-Development-Cheats/blob/master/java-ee/EJB.md)
+
 Для начала нам нужно включить зависимость
 
 Переходим в pom.xml и внутри тегов `<dependencies> ... </dependencies>` добавляем:
