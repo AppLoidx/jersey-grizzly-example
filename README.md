@@ -59,4 +59,5 @@ http://localhost:8080/myapp/custom
 ```
 ![](https://i.imgur.com/PYnlxel.png)
 
-[Использование EJB](EJB.md)
+[Использование EJB](EJB.md) <br>
+[Подключение статических файлов](static.md)
