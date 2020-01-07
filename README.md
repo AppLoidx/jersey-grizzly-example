@@ -58,3 +58,5 @@ public class CustomResource {
 http://localhost:8080/myapp/custom
 ```
 ![](https://i.imgur.com/PYnlxel.png)
+
+[Использование EJB](EJB.md)
