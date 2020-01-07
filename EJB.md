@@ -10,7 +10,9 @@
                 <version>6.0</version>
             </dependency>
 ```
-Для начала сделаем интерфейс EJB:
+
+Создадим интерфейс EJB:
+
 ```java
 @Local
 public interface LocalEJB {
