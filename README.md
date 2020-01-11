@@ -60,4 +60,5 @@ http://localhost:8080/myapp/custom
 ![](https://i.imgur.com/PYnlxel.png)
 
 [Использование EJB](EJB.md) <br>
-[Подключение статических файлов](static.md)
+[Подключение статических файлов](static.md) <br>
+[Использование JSON](json.md)
